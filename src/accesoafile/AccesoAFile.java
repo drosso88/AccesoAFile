@@ -23,11 +23,11 @@ public class AccesoAFile {
         SimpleDateFormat sdf= new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
 
         if (f.exists()) {
-            System.out.println("Nombre" + f.getName());
-            System.out.println("ultima modificación" + sdf.format(f.lastModified()));
-            System.out.println("Directorio padre" + f.getParent());
-            System.out.println("Ruta Relativa" + f.getPath());
-            System.out.println("Ruta Absoluta" + f.getAbsolutePath());
+            System.out.println("Nombre " + f.getName());
+            System.out.println("ultima modificación " + sdf.format(f.lastModified()));
+            System.out.println("Directorio padre " + f.getParent());
+            System.out.println("Ruta Relativa " + f.getPath());
+            System.out.println("Ruta Absoluta " + f.getAbsolutePath());
         }else{
             System.out.println("Aquí no hay nada oiga!");
                     
